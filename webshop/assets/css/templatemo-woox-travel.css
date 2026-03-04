@@ -370,12 +370,11 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 159px;
-  margin-top: 15px;
+  width: 75px;
 }
 
 .background-header .main-nav .logo img {
-  width: 159px;
+  width: 75px;
 }
 
 .header-area .main-nav .nav {
@@ -832,6 +831,19 @@ Banner Style
 #section-1 .content-slider .slider #top-banner-4 {
   background: url('../images/banner-04.jpg') no-repeat center center;
   background-size: cover;
+  
+}
+#section-1 .content-slider .slider #top-banner-5 {
+  background: url('../images/banner-05.jpg') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-6 {
+  background: url('../images/banner-06.jpg') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-7 {
+  background: url('../images/banner-07.jpg') no-repeat center center;
+  background-size: cover;
 }
 #section-1 .content-slider nav {
   position: absolute;
@@ -893,14 +905,20 @@ Banner Style
 #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1,
 #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2,
 #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3,
-#section-1 .content-slider #banner4:checked ~ .slider #top-banner-4 {
+#section-1 .content-slider #banner4:checked ~ .slider #top-banner-4,
+#section-1 .content-slider #banner5:checked ~ .slider #top-banner-5,
+#section-1 .content-slider #banner6:checked ~ .slider #top-banner-6,
+#section-1 .content-slider #banner7:checked ~ .slider #top-banner-7 {
   opacity: 1;
   z-index: 1;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1),
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2),
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3),
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4),
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5),
+#section-1 .content-slider #banner6:checked ~ nav label:nth-of-type(6),
+#section-1 .content-slider #banner7:checked ~ nav label:nth-of-type(7) {
   cursor: default;
   color: #fff;
   transition: all 0.5s;
@@ -908,13 +926,19 @@ Banner Style
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar,
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar,
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar,
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5) .progressbar,
+#section-1 .content-slider #banner6:checked ~ nav label:nth-of-type(6) .progressbar,
+#section-1 .content-slider #banner7:checked ~ nav label:nth-of-type(7) .progressbar {
   background: #fff;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill,
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar-fill,
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill,
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5) .progressbar-fill,
+#section-1 .content-slider #banner6:checked ~ nav label:nth-of-type(6) .progressbar-fill,
+#section-1 .content-slider #banner7:checked ~ nav label:nth-of-type(7) .progressbar-fill {
   animation: progressBarFill 5s linear;
 }
 /* Animations */
