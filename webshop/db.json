@@ -1,0 +1,26 @@
+
+
+
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Első poszt",
+      "author": "Béla"
+    },
+    {
+      "id": "2",
+      "title": "Második poszt",
+      "author": "Juci"
+    },
+    {
+      "title": "módosítva",
+      "author": "Én",
+      "id": "f1ea"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "Teszt Elek"
+  }
+}
