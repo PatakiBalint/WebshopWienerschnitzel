@@ -24,6 +24,36 @@
       "id": "b272",
       "username": "teszt",
       "password": "123"
+    },
+    {
+      "id": "96ba",
+      "username": "magi",
+      "password": "123"
+    },
+    {
+      "id": "b4ef",
+      "username": "magi1",
+      "password": "123"
+    },
+    {
+      "id": "d340",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "48ab",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "9c48",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "3d43",
+      "username": "kaka",
+      "password": "lázár"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
